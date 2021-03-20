@@ -37,3 +37,9 @@ The manual setup is laborious on a per repo basis but Pursuit has ~1,000 repos s
 1. Set maximum number of comments per issue to your desired number (5 is the default; this repo is set to 10)
 1. Hit `Save`
 1. This repo also has `Pull request status updates` installed. I am not sure if this is a requirement in order to get the inline PR comments.
+
+## Verifying
+1. Open a PR against your repo
+1. You should see the Code Climate check running (if you installed `Pull request status updates`)
+1. If any of the files you touched have Code Climate errors or eslint errors, you should see inline commments.
+[Example PR with comments](https://github.com/joinpursuit/codeclimate-test-repo/pull/2)
