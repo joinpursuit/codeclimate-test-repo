@@ -20,6 +20,8 @@ output = `Hello and ${greeting}`;
   return output;
 }
 
+let myVar = { hello: 42 }
+
 console.log(bar);
 console.log(helloWorld());
 console.log(helloWorld("YO yo yOO!!"));
