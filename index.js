@@ -5,6 +5,7 @@ let baz = 12;
 
 let doBloop = (params) => {
 console.log(bloop)
+                 return 'hello'
 }
 
 function helloWorld(greeting) {
